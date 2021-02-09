@@ -33,7 +33,31 @@ namespace BlackjackCSharp
             do
             {
 
-                List<Card> deck = CreateDeck();
+                 List<Card> deck = CreateDeck();
+
+
+                // Test case
+                
+
+                //string[] symbolArray = { "H", "D", "S", "C" };
+                //string[] numberArray = { "8", "A"};
+
+                //foreach (string symbol in symbolArray)
+                //{
+                //    foreach (string number in numberArray)
+                //    {
+                //        Card newCard = new Card();
+                //        newCard.symbol = symbol;
+                //        newCard.number = number;
+                         
+                //        newCard.value =  (number == "A") ? 1 : int.Parse(number);
+
+                //        deck.Insert(0,newCard);
+                //    }  
+                //}
+                 
+                // 
+
                 List<Card> dealerHand = new List<Card>();
                 List<Card> playerHand = new List<Card>();
 
